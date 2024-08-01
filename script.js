@@ -193,7 +193,7 @@ function calcDifference(m){
   var rightLegs=[];
   var rightLegTree=[];
   var rightLegPositions=[];
-  if (m.dim==1){
+  if (m.dim<3){
     for (var i=0;i<m.arr.length;i++){
       rightLegs.push(m.arr[i]);
       rightLegTree.push(m.arr[i].parentIndex);
